@@ -1,4 +1,65 @@
-.card-placeholder {
-	background: red;
+body {
+    font-family: Arial;
+    font-size: 35px;
 }
 
+.board {
+    max-width: 950px;
+    margin: 0 auto;
+    background: lightgray;
+    height: 100vh;
+    padding: 5px 10px;
+}
+
+.column-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    background: lime;
+    height: 100%;
+    width: 33%;
+    border: solid green 2px;
+    padding: 0 10px;
+}
+
+.column h2 {
+    border-bottom: red solid 3px;
+    text-align: center;
+}
+
+ul {
+    min-height: 150px;
+}
+
+li {
+    list-style-type: none;
+}
+
+div h1 {
+    text-align: center;
+    margin: 35px 0;
+}
+
+div .create-column {
+    margin: 0 auto;
+}
+
+.card:active,
+.card:hover {
+    cursor: pointer;
+}
+
+.card-description {
+    font-size: 18px;
+}
+
+button {
+    background-color: lightblue;
+}
+
+.board > button {
+    font-size: 22px;
+    margin-bottom: 10px;
+}

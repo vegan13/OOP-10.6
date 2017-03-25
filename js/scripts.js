@@ -28,7 +28,7 @@ $(document).ready(function(){
             var $column = $('<div>').addClass('column');
             var $columnTitle = $('<h2>').addClass('column-title').text(self.name);
             var $columnCardList = $('<ul>').addClass('column-card-list');
-            var $columnDelete = $('<button>').addClass('btn-delete').text('x');
+            var $columnDelete = $('<button>').addClass('btn-delete').text('usuń kolumnę');
             var $columnAddCard = $('<button>').addClass('add-card').text('Dodaj kartę');
             
             
@@ -42,8 +42,8 @@ $(document).ready(function(){
             });
             
             // konstruowanie elementu kolumny
-            $column.append($columnTitle)
-            .append($columnDelete)
+            $column.append($columnDelete)
+            .append($columnTitle)
             .append($columnAddCard)
             .append($columnCardList);
             
