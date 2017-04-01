@@ -14,14 +14,17 @@ body {
 .column-container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 .column {
     background: lime;
     height: 100%;
-    width: 33%;
+    width: 30%;
     border: solid green 2px;
     padding: 0 10px;
+    margin: 5px 2px;
 }
 
 .column h2 {
